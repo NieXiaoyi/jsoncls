@@ -11,7 +11,7 @@ jsoncls_classifiers = [
     "Topic :: Utilities",
 ]
 
-with open("README.md", "r") as fp:
+with open("README.rst", "r") as fp:
     jsoncls_long_description = fp.read()
 
 with open("requirements.txt", "r") as fp:
