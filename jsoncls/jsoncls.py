@@ -56,7 +56,7 @@ def dump(obj, fp, *args, **kwargs):
 
 
 if six.PY2:
-    String = basestring
+    String = basestring  # noqa: F821
 else:
     String = str
 
