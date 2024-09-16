@@ -13,12 +13,14 @@ jobs:
         include:
           - python-version: '3.11'
             os: ubuntu-latest
-          # This tests with Python 2.7 and with Ubuntu-20.04's Python 3.8 for combined py2+3 coverage:
-          - python-version: '2.7'
-            os: ubuntu-20.04
           - python-version: '3.10'
             os: ubuntu-latest
+          - python-version: '3.9'
+            os: ubuntu-20.04
           - python-version: '3.7'
+            os: ubuntu-20.04
+          # This tests with Python 2.7 and with Ubuntu-20.04's Python 3.8 for combined py2+3 coverage:
+          - python-version: '2.7'
             os: ubuntu-20.04
     runs-on: ${{ matrix.os }}
     steps:
