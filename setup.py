@@ -30,5 +30,5 @@ setup(name="jsoncls",
       long_description=jsoncls_long_description,
       license="MIT",
       classifiers=jsoncls_classifiers,
-      python_requires=">=2.7, >=3.7",
+      python_requires=">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*",
       )
