@@ -1,4 +1,3 @@
-=======
 jsoncls
 =======
 
@@ -6,7 +5,7 @@ jsoncls, a library that supports both of python2 and python3, can load a
 json as an object, and also can dump an object to a json
 
 A Simple Example
-=======
+----------------
 
 declare an object and load json as it
 
@@ -76,14 +75,12 @@ declare an object and load json as it
        print(person.addresses[1].country)
 
 Changelog
-=======
+---------
 
-----
 v1.0.1
-----
+~~~~~~
 
 Bug Fixes
-----
-- failed to install jsoncls with python2 -m pip
+^^^^^^^^^
 
-
+-  failed to install jsoncls with python2 -m pip
