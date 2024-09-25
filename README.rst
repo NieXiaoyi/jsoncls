@@ -77,6 +77,11 @@ declare an object and load json as it
 Changelog
 ---------
 
+v1.0.2
+~~~~~~
+
+-  require six>=1.12.0
+
 v1.0.1
 ~~~~~~
 
